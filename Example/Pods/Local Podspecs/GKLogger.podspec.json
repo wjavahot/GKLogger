@@ -1,0 +1,35 @@
+{
+  "name": "GKLogger",
+  "version": "0.1.0",
+  "summary": "GKLogger for log",
+  "description": "The log library,it is require iOS version >=8.0",
+  "homepage": "https://github.com/wjavahot/GKLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gordon": "wjavahog@126.com"
+  },
+  "source": {
+    "git": "https://github.com/wjavahot/GKLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GKLogger/Classes/**/*",
+  "public_header_files": "GKLogger/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "CocoaLumberjack": [
+      "2.2.0"
+    ],
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  }
+}
