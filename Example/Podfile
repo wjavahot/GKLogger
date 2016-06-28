@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GKLogger_Example' do
+  pod 'GKLogger', :path => '../'
+
+  target 'GKLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
